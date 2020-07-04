@@ -1,8 +1,9 @@
 
 using UnityEngine;
 using FSM.StateInfo;
+using FSM.StateMachines;
 
-namespace FSM.States {
+namespace FSM.States.ControlStates {
     public class MovementControlState : ControlState
     {
         public override void OnEnter(Transform transform, PlayerControllerStateInfo stateInfo)

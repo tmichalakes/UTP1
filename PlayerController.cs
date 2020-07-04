@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using FSM.StateInfo;
-using FSM.States;
-using FSM;
+using FSM.States.ControlStates;
+using FSM.StateMachines;
 
 public class PlayerController : MonoBehaviour
 {

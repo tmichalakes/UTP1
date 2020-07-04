@@ -1,8 +1,9 @@
 
 using FSM.StateInfo;
+using FSM.StateMachines;
 using UnityEngine;
 
-namespace FSM.States {
+namespace FSM.States.ControlStates {
     public class BoostControlState : ControlState
     {
         public override void OnEnter(Transform transform, PlayerControllerStateInfo stateInfo)

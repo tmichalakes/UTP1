@@ -1,11 +1,11 @@
 
-using FSM.States;
+using FSM.States.ControlStates;
 using FSM.StateInfo;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-namespace FSM {
+namespace FSM.StateMachines {
     public class ControlStateMachine : StateMachine<PlayerControllerStateInfo>
     {
         public ControlStateMachine(){
