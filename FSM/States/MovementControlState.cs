@@ -21,10 +21,6 @@ namespace FSM.States {
             var Velocity = transform.forward * stateInfo.Speed * deltaTime;
             transform.Translate(Velocity, Space.World);
             transform.Rotate(transform.up, stateInfo.TurnRate, Space.World);
-
-
-
-            
         }
 
         public override void CheckTransitions(Transform transform, PlayerControllerStateInfo stateInfo){

@@ -6,14 +6,14 @@ using UnityEngine;
 using System;
 
 namespace FSM {
-    public class ControlStateMachine
+    public class ControlStateMachine : StateMachine<PlayerControllerStateInfo>
     {
         public ControlStateMachine(){
             States = new Dictionary<string, ControlState>();
         }
 
         /**
-            SetInitialState - does not call OnEnter!
+            SePlayerControllerStateInfoInitialState - does not call OnEnter!
         */
         public void SetInitialState(string stateName){
             if(!States.ContainsKey(stateName))
